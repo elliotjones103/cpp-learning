@@ -54,13 +54,11 @@ int main() {
     std::cout << "fourth price: " << prices[3] << std::endl;
 
     // Use a loop to iterate over vecotor
-
     std::cout << "All prices: " << std::endl;
     for (int i = 0; i < prices.size(); i++) {
         std::cout << "price " << i + 1 << ": " << prices[i] << std::endl;
     }
-
-
+    
     iterate_prices(prices);
     
     return 0;
