@@ -60,6 +60,7 @@ int main() {
     }
     
     iterate_prices(prices);
+    iterate_prices({110.0, 108.0, 107.5, 109.0});
     
     return 0;
 }
